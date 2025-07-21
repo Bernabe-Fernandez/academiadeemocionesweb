@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'flowbite';
+.clip-custom {
+  clip-path: ellipse(140% 80% at 50% 100%);
+}

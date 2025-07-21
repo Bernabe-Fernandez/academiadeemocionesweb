@@ -3,13 +3,13 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhon
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-900 text-white px-6 py-10">
+        <footer className="bg-white text-gray-800 px-6 py-10">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 
                 {/* Logo y descripción */}
                 <div className='text-center md:text-left'>
                     <h2 className="text-xl font-bold mb-2">Academia de Emociones</h2>
-                    <p className="text-sm text-gray-400">
+                    <p className="text-sm text-gray-600">
                         Ayudamos a las personas a descubrir y gestionar sus emociones a través del conocimiento y el acompañamiento.
                     </p>
                 </div>
@@ -17,21 +17,21 @@ export default function Footer() {
                 {/* Navegación */}
                 <div className='text-center md:text-left'>
                     <h3 className="font-semibold mb-2">Navegación</h3>
-                    <ul className="space-y-1 text-sm text-gray-400">
-                        <li><a href="/" className="hover:text-white">Inicio</a></li>
-                        <li><a href="/nosotros" className="hover:text-white">Nosotros</a></li>
-                        <li><a href="/blog" className="hover:text-white">Blog</a></li>
-                        <li><a href="/contacto" className="hover:text-white">Contacto</a></li>
-                        <li><a href="#" className="hover:text-white">Cursos</a></li>
+                    <ul className="space-y-1 text-sm text-gray-500">
+                        <li><a href="/" className="hover:text-gray-800">Inicio</a></li>
+                        <li><a href="/nosotros" className="hover:text-gray-800">Nosotros</a></li>
+                        <li><a href="/blog" className="hover:text-gray-800">Blog</a></li>
+                        <li><a href="/contacto" className="hover:text-gray-800">Contacto</a></li>
+                        <li><a href="#" className="hover:text-gray-800">Cursos</a></li>
                     </ul>
                 </div>
 
                 {/* Recursos legales */}
                 <div className='text-center md:text-left'>
                     <h3 className="font-semibold mb-2">Legales</h3>
-                    <ul className="space-y-1 text-sm text-gray-400">
-                        <li><a href="/terms" className="hover:text-white">Términos y Condiciones</a></li>
-                        <li><a href="/privacy" className="hover:text-white">Política de Privacidad</a></li>
+                    <ul className="space-y-1 text-sm text-gray-500">
+                        <li><a href="/terms" className="hover:text-gray-800">Términos y Condiciones</a></li>
+                        <li><a href="/privacy" className="hover:text-gray-800">Política de Privacidad</a></li>
                     </ul>
                 </div>
 
@@ -45,39 +45,20 @@ export default function Footer() {
                             <a href="#" className="hover:text-yellow-300"><FaEnvelope /></a>
                         </div>
                 </div>
-
-                {/* Contacto */}
-                {/* <div className="flex flex-col items-center text-center md:text-left md:items-start">
-                    <h3 className="font-semibold mb-4">Contacto</h3>
-                    <ul className="space-y-4 text-sm text-gray-400">
-                        <li className="flex items-center justify-center">
-                        <FaMapMarkerAlt className="mr-2" />
-                        Calle Ficticia 123, Colonia Centro, Ciudad, País
-                        </li>
-                        <li className="flex items-center md:items-start justify-center">
-                        <FaPhoneAlt className="mr-2" />
-                        +52 55 1234 5678
-                        </li>
-                        <li className="flex items-center md:items-start justify-center">
-                        <FaEnvelope className="mr-2" />
-                        contacto@academiaemociones.com
-                        </li>
-                    </ul>
-                </div> */}
                 <div className="flex flex-col items-center text-center md:items-start md:text-left">
                     <h3 className="font-semibold mb-4">Contacto</h3>
-                    <ul className="space-y-4 text-sm text-gray-400">
-                        <li className="flex items-center justify-center md:justify-start">
-                        <FaMapMarkerAlt className="mr-2" />
-                        Calle Ficticia 123, Colonia Centro, Ciudad, País
+                    <ul className="space-y-4 text-sm text-gray-500 ">
+                        <li className="flex items-center justify-center md:justify-start hover:text-gray-800">
+                            <FaMapMarkerAlt className="mr-2" />
+                            Calle Ficticia 123, Colonia Centro, Ciudad, País
                         </li>
-                        <li className="flex items-center justify-center md:justify-start">
-                        <FaPhoneAlt className="mr-2" />
-                        +52 55 1234 5678
+                        <li className="flex items-center justify-center md:justify-start hover:text-gray-800">
+                            <FaPhoneAlt className="mr-2" />
+                            +52 55 1234 5678
                         </li>
-                        <li className="flex items-center justify-center md:justify-start">
-                        <FaEnvelope className="mr-2" />
-                        contacto@academiaemociones.com
+                        <li className="flex items-center justify-center md:justify-start hover:text-gray-800">
+                            <FaEnvelope className="mr-2" />
+                            contacto@academiaemociones.com
                         </li>
                     </ul>
                 </div>
@@ -86,8 +67,8 @@ export default function Footer() {
             </div>
 
             {/* Línea inferior */}
-            <div className="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
-                © {new Date().getFullYear()} Academia de Emociones. Todos los derechos reservados.
+            <div className="text-center text-sm font-semibold text-gray-900 mt-8 border-t border-gray-700 pt-4">
+                <span className='font-bold'>&copy;</span> {new Date().getFullYear()} <span className='font-bold'>Academia de Emociones.</span> Todos los derechos reservados.
             </div>
         </footer>
     )
