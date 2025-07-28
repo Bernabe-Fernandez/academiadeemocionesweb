@@ -7,7 +7,7 @@ export default function MainLayout() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-100">
         <Header />
-        <main className="flex-grow px-4 py-6">
+        <main className="flex-grow pt-16 pb-4 ">
             <Outlet />
         </main>
         <Footer />
