@@ -3,13 +3,13 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhon
 
 export default function Footer() {
     return (
-        <footer className="bg-white text-gray-800 px-6 py-10">
+        <footer className="bg-azulPrimario-500 text-black px-6 py-10">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                 
                 {/* Logo y descripción */}
                 <div className='text-center md:text-left'>
                     <h2 className="text-xl font-bold mb-2">Academia de Emociones</h2>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-800">
                         Ayudamos a las personas a descubrir y gestionar sus emociones a través del conocimiento y el acompañamiento.
                     </p>
                 </div>
@@ -17,21 +17,21 @@ export default function Footer() {
                 {/* Navegación */}
                 <div className='text-center md:text-left'>
                     <h3 className="font-semibold mb-2">Navegación</h3>
-                    <ul className="space-y-1 text-sm text-gray-500">
-                        <li><a href="/" className="hover:text-gray-800">Inicio</a></li>
-                        <li><a href="/nosotros" className="hover:text-gray-800">Nosotros</a></li>
-                        <li><a href="/blog" className="hover:text-gray-800">Blog</a></li>
-                        <li><a href="/contacto" className="hover:text-gray-800">Contacto</a></li>
-                        <li><a href="#" className="hover:text-gray-800">Cursos</a></li>
+                    <ul className="space-y-1 text-sm text-gray-800">
+                        <li><a href="/" className="hover:font-bold">Inicio</a></li>
+                        <li><a href="/nosotros" className="hover:font-bold">Nosotros</a></li>
+                        <li><a href="/blog" className="hover:font-bold">Blog</a></li>
+                        <li><a href="/contacto" className="hover:font-bold">Contacto</a></li>
+                        <li><a href="#" className="hover:font-bold">Cursos</a></li>
                     </ul>
                 </div>
 
                 {/* Recursos legales */}
                 <div className='text-center md:text-left'>
                     <h3 className="font-semibold mb-2">Legales</h3>
-                    <ul className="space-y-1 text-sm text-gray-500">
-                        <li><a href="/terms" className="hover:text-gray-800">Términos y Condiciones</a></li>
-                        <li><a href="/privacy" className="hover:text-gray-800">Política de Privacidad</a></li>
+                    <ul className="space-y-1 text-sm text-gray-800">
+                        <li><a href="/terms" className="hover:font-bold">Términos y Condiciones</a></li>
+                        <li><a href="/privacy" className="hover:font-bold">Política de Privacidad</a></li>
                     </ul>
                 </div>
 
@@ -47,16 +47,16 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col items-center text-center md:items-start md:text-left">
                     <h3 className="font-semibold mb-4">Contacto</h3>
-                    <ul className="space-y-4 text-sm text-gray-500 ">
-                        <li className="flex items-center justify-center md:justify-start hover:text-gray-800">
+                    <ul className="space-y-4 text-sm text-gray-800 ">
+                        <li className="flex items-center justify-center md:justify-start hover:font-bold">
                             <FaMapMarkerAlt className="mr-2" />
                             Calle Ficticia 123, Colonia Centro, Ciudad, País
                         </li>
-                        <li className="flex items-center justify-center md:justify-start hover:text-gray-800">
+                        <li className="flex items-center justify-center md:justify-start hover:font-bold">
                             <FaPhoneAlt className="mr-2" />
                             +52 55 1234 5678
                         </li>
-                        <li className="flex items-center justify-center md:justify-start hover:text-gray-800">
+                        <li className="flex items-center justify-center md:justify-start hover:font-bold">
                             <FaEnvelope className="mr-2" />
                             contacto@academiaemociones.com
                         </li>

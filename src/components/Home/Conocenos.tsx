@@ -1,25 +1,36 @@
-import conocenos from '@/assets/images/conocenos-home.webp';
+import conocenos from '@/assets/images/conocenos-home.jpg';
+import Bottom from '../Generics/Bottom';
 
 export default function Conocenos() {
   return (
     <section className="w-full py-5 px-6 bg-gradient-to-r from-white/80 via-white/70 to-white/80 ">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-blue-500/30 rounded-xl p-6 shadow-lg ">
-            {/* Texto */}
-            <div className="md:w-1/2 w-full text-center md:text-left">
-                <h2 className="text-3xl font-bold text-azulobs-500 mb-4 uppercase">Conócenos</h2>
-                <p className="text-base text-gray-900 leading-relaxed">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus tempora alias consectetur incidunt dolore ratione eveniet ad? Ullam aliquam inventore deserunt laboriosam vel earum maxime libero distinctio? Enim, cupiditate. Quidem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis facere modi sapiente consectetur nesciunt quos animi placeat, ipsa dolorem omnis sed laboriosam et nisi culpa tenetur repellendus nam atque mollitia!
-                </p>
-            </div>
-            {/* Imagen */}
-            <div className="md:w-1/2 w-full ">
-                <img
-                    src={conocenos} // reemplaza con tu imagen real
+        <div className='flex gap-4'>
+            <div className='w-1/2 flex justify-center items-center'>
+                <img src={conocenos} // reemplaza con tu imagen real
                     alt="Nosotros"
-                    className="w-full h-auto rounded-xl shadow-md"
+                    className="w-[650px] h-auto rounded-xl shadow-md"
                 />
             </div>
-
+            <div className='w-1/2 flex flex-col justify-center items-center space-y-4'>
+                <h2 className='text-4xl uppercase text-center font-bold text-rojoPrimario-500'>Quienes somos</h2>
+                <p className='text-xl text-azulPrimario-800 font-bold text-justify mx-8'>
+                    Somos un equipo de profesionales comprometidos
+                    con el bienestar emocional y el desarrollo personal.
+                    Creemos en el poder de la escucha, la educación
+                    emocional y el acompañamiento consciente para
+                    transformar vidas.
+                    <span className='block pt-4'>
+                        A través de nuestras sesiones de terapia y cursos,
+                        brindamos herramientas accesibles, humanas y
+                        prácticas que ayudan a niños, jóvenes y adultos a
+                        conocerse, sanar y construir relaciones más
+                        saludables.
+                    </span>
+                </p>
+                <div className=' w-full flex justify-end'>
+                    <Bottom color='bg-azulPrimario-200' texto='Conoce más sobre nosostros' enlace='servicios' color_hover='bg-azulPrimario-800'/>
+                </div>
+            </div>
         </div>
     </section>
   )
