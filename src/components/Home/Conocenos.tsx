@@ -3,7 +3,7 @@ import Bottom from '../Generics/Bottom';
 
 export default function Conocenos() {
   return (
-    <section className="w-full py-5 px-6 bg-gradient-to-r from-white/80 via-white/70 to-white/80 ">
+    <section className="w-full py-5 px-6">
         <div className='flex gap-4'>
             <div className='w-1/2 flex justify-center items-center'>
                 <img src={conocenos} // reemplaza con tu imagen real
