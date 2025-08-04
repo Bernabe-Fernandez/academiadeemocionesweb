@@ -3,7 +3,7 @@ import Bottom from '../Generics/Bottom';
 
 export default function Conocenos() {
   return (
-    <section className="w-full py-5 px-6">
+    <section className="w-5/6 mx-auto py-5 px-6">
         <div className='flex gap-4'>
             <div className='w-1/2 flex justify-center items-center'>
                 <img src={conocenos} // reemplaza con tu imagen real
@@ -28,7 +28,7 @@ export default function Conocenos() {
                     </span>
                 </p>
                 <div className=' w-full flex justify-end'>
-                    <Bottom color='bg-azulPrimario-200' texto='Conoce más sobre nosostros' enlace='servicios' color_hover='bg-azulPrimario-800'/>
+                    <Bottom color='bg-azulPrimario-200' texto='Conoce más sobre nosostros' enlace='nosotros' color_hover='bg-azulPrimario-800'/>
                 </div>
             </div>
         </div>

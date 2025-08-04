@@ -12,7 +12,7 @@ export default function EquipoDestacado() {
                         <Bottom color='bg-azulPrimario-500' color_hover='bg-azulPrimario-800' key={1} texto='Conocenos' enlace='nosotros'/>
                     </div>
                 </div>
-                <div className='w-3/5'>
+                <div className='w-3/5 bg-rojoPrimario-500'>
                     <img src={equipo} alt="Equipo Destacado" />
                 </div>
             </div>

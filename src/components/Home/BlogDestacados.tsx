@@ -1,3 +1,4 @@
+import Bottom from "../Generics/Bottom";
 import CardBlog from "../Generics/CardBlog";
 
 
@@ -10,6 +11,9 @@ export default function BlogDestacados() {
             <CardBlog/>
             <CardBlog/>
             <CardBlog/>
+        </div>
+        <div className="w-full flex justify-end items-center uppercase">
+          <Bottom color="bg-verdePrimario-500" color_hover="bg-verdePrimario-800" enlace="blog" texto="Ver todos" key={1}/>
         </div>
     </section>
   )
