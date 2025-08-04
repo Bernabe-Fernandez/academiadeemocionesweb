@@ -1,7 +1,7 @@
 
 export default function FormularioContacto() {
     return (
-        <div className="min-h-screen flex items-center justify-center">
+        <div className="flex items-center justify-center">
             <form className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-xl space-y-6">
                 <h2 className="text-3xl font-bold text-azulPrimario-800 text-center uppercase">Contáctanos</h2>
 
