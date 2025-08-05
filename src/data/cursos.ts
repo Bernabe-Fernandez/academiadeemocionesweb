@@ -21,7 +21,7 @@ export const cursos = [
     },
     {
         id: 3,
-        titulo: "Deja el de orientación para padres",
+        titulo: "Orientación para padres",
         descripcion: "Una guía comprensiva para madres y padres que buscan herramientas claras para acompañar a sus hijos en etapas difíciles o conductas problemáticas.",
         imagen: "/cursos/cursos3.jpg",
         enlace: "/cursos/orientacion-padres",
