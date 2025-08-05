@@ -14,17 +14,19 @@ export default function Conocenos() {
             <div className='w-1/2 flex flex-col justify-center items-center space-y-4'>
                 <h2 className='text-4xl uppercase text-center font-bold text-rojoPrimario-500'>Quienes somos</h2>
                 <p className='text-xl text-azulPrimario-800 font-bold text-justify mx-8'>
-                    Somos un equipo de profesionales comprometidos
-                    con el bienestar emocional y el desarrollo personal.
-                    Creemos en el poder de la escucha, la educación
-                    emocional y el acompañamiento consciente para
-                    transformar vidas.
+                    Llamamos Academia a nuestros programas porque no se limitan a la terapia convencional; funcionan como Clubes especializados donde se integra un sistema de aprendizaje que incluye:
                     <span className='block pt-4'>
-                        A través de nuestras sesiones de terapia y cursos,
-                        brindamos herramientas accesibles, humanas y
-                        prácticas que ayudan a niños, jóvenes y adultos a
-                        conocerse, sanar y construir relaciones más
-                        saludables.
+                        <ul>
+                            <li>
+                                Terapia individual y familiar.
+                            </li>
+                            <li>
+                                Terapias de grupo especializadas.
+                            </li>
+                            <li>
+                                Aprendizaje y entrenamiento en habilidades.
+                            </li>
+                        </ul>
                     </span>
                 </p>
                 <div className=' w-full flex justify-end'>

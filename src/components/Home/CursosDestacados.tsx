@@ -19,8 +19,8 @@ export default function CursosDestacados() {
                         <div key={curso.id} className={`flex ${flexDirection} items-center rounded-xl`}>
                             <img src={curso.imagen} alt={`imagen ${curso.titulo}`} className="w-1/2 h-full" />
                             <div className={`${curso.fondo} w-1/2 flex flex-col justify-center items-center h-full p-6 text-white`}>
-                                <h3 className="text-xl font-bold text-center">{curso.titulo}</h3>
-                                <p className="text-center">{curso.descripcion}</p>
+                                <h3 className="text-xl font-bold text-center min-h-24">{curso.titulo}</h3>
+                                <p className="text-justify">{curso.descripcion}</p>
                                 <div className="w-full flex justify-end">
                                     <Bottom
                                         color={curso.color}

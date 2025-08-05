@@ -50,15 +50,15 @@ export default function Footer() {
                     <ul className="space-y-4 text-sm text-gray-800 ">
                         <li className="flex items-center justify-center md:justify-start hover:font-bold">
                             <FaMapMarkerAlt className="mr-2" />
-                            Calle Ficticia 123, Colonia Centro, Ciudad, País
+                            Calle Miguel Hidalgo 2963, Vallarta Norte, Guadalajara, Jalisco
                         </li>
                         <li className="flex items-center justify-center md:justify-start hover:font-bold">
                             <FaPhoneAlt className="mr-2" />
-                            +52 55 1234 5678
+                            +52 33 2052 8665
                         </li>
                         <li className="flex items-center justify-center md:justify-start hover:font-bold">
                             <FaEnvelope className="mr-2" />
-                            contacto@academiaemociones.com
+                            info@academiademociones.com
                         </li>
                     </ul>
                 </div>

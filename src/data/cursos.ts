@@ -1,18 +1,18 @@
 export const cursos = [
     {
         id: 1,
-        titulo: "Psicología del Adolescente",
-        descripcion: "Explora los cambios emocionales, cognitivos y sociales durante la adolescencia.",
+        titulo: "En la mente de mi pareja",
+        descripcion: "Explora cómo piensa, siente y actúa tu pareja para mejorar la comunicación, la empatía y fortalecer la relación de forma consciente y saludable.",
         imagen: "/cursos/cursos1.jpg",
-        enlace: "/cursos/psicologia-adolescente",
+        enlace: "#",
         fondo: "bg-azulPrimario-500",
         color: "bg-azulPrimario-200",
         color_hover: "bg-azulPrimario-800"
     },
     {
         id: 2,
-        titulo: "Trastornos de Conducta en Adolescentes",
-        descripcion: "Identifica y aborda trastornos como ansiedad, depresión y conducta disruptiva en jóvenes.",
+        titulo: "+ Vida programa virtual de los siguientes pasos para la recuperación de LUDOPATIA",
+        descripcion: "Un acompañamiento práctico y emocional diseñado para quienes han iniciado su proceso de recuperación de la ludopatía y necesitan una guía clara para avanzar con firmeza.",
         imagen: "/cursos/cursos2.jpg",
         enlace: "/cursos/trastornos-adolescentes",
         fondo: "bg-verdePrimario-500",
@@ -21,8 +21,8 @@ export const cursos = [
     },
     {
         id: 3,
-        titulo: "Orientación para Padres de Adolescentes",
-        descripcion: "Guía práctica para padres sobre cómo apoyar emocionalmente a sus hijos adolescentes.",
+        titulo: "Deja el de orientación para padres",
+        descripcion: "Una guía comprensiva para madres y padres que buscan herramientas claras para acompañar a sus hijos en etapas difíciles o conductas problemáticas.",
         imagen: "/cursos/cursos3.jpg",
         enlace: "/cursos/orientacion-padres",
         fondo: "bg-amarilloPrimario-500",
@@ -32,8 +32,8 @@ export const cursos = [
     },
     {
         id: 4,
-        titulo: "Intervención Psicológica en Adolescentes",
-        descripcion: "Aprende estrategias de intervención clínica y educativa para el trabajo con adolescentes.",
+        titulo: "Introducción a la Mentalización",
+        descripcion: "Aprende cómo entender mejor tu mente y la de los demás, desarrollando habilidades para interpretar pensamientos, emociones e intenciones con mayor claridad.",
         imagen: "/cursos/cursos4.jpg",
         enlace: "/cursos/intervencion-adolescentes",
         fondo: "bg-rojoPrimario-500",

@@ -7,6 +7,8 @@ import TerminosYCondiciones from "../views/Privacidad/TerminosYCondiciones";
 import Privacidad from "../views/Privacidad/Privacidad";
 import MainLayout from "../layouts/MainLayout";
 import Servicios from "../views/Servicios/Servicios";
+import Blog1 from "@/components/Blogs/Blog1";
+import Blog2 from "@/components/Blogs/Blog2";
 
 export default function AppRouter() {
     return (
@@ -20,6 +22,8 @@ export default function AppRouter() {
                 <Route path="/servicios" element={<Servicios/>}/>
                 <Route path="/Terms" element={<TerminosYCondiciones/>}/>
                 <Route path="/Privacy" element={<Privacidad/>}/>
+                <Route path="/blog/entrada-1" element={<Blog1/>}/>
+                <Route path="/blog/entrada-2" element={<Blog2/>}/>
             </Route>
         </Routes>
     </BrowserRouter>

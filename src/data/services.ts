@@ -1,7 +1,7 @@
 export const services = [
     {
         id: 1,
-        titulo: 'Terapia Breve',
+        titulo: 'Terapia Individual',
         imagen: 'servicio1.jpg',
         informacion: 'Sesiones individuales, familiares y para niños/adolescentes. Creamos un espacio seguro para escucharte, comprenderte y acompañarte en tu proceso. Trabajamos con enfoque empático y profesional, adaptado a tus necesidades.',
         color: 'bg-azulPrimario-500',
@@ -13,7 +13,7 @@ export const services = [
         id: 2,
         titulo: 'Cursos Terapeuticos',
         imagen: 'servicio2.jpg',
-        informacion: 'Ofrecemos cursos y talleres sobre temas como autoestima, crianza, manejo de emociones, límites, comunicación y más. Diseñados para todo público, sin necesidad de formación previa.',
+        informacion: 'Ofrecemos cursos y talleres sobre temas como autoestima, crianza, manejo de emociones, límites, comunicación y más. Están diseñados para todo público, sin necesidad de formación previa. Además, todos nuestros pacientes reciben cursos personalizados completamente gratis como parte de su proceso de mejora.',
         color: 'bg-amarilloPrimario-500',
         color_hover: 'bg-amarilloPrimario-800',
         border: 'border-amarilloPrimario-500',
