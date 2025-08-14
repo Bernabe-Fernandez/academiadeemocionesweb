@@ -14,8 +14,8 @@ type CardEspecialistaProp = {
 
 export default function CardEspecialista({especialista}:CardEspecialistaProp) {
   return (
-    <div className="w-full lg:w-3/4 mx-auto flex flex-col items-center justify-center bg-azulPrimario-800">
-        <img src={`/especialistas/${especialista.imagen}`} alt={`imagen de ${especialista.nombre}`} className="w-3/4 max-h-52 my-4 rounded" />
+    <div className="w-full lg:w-5/6 mx-auto flex flex-col items-center justify-center bg-azulPrimario-800 py-4">
+        <img src={`/especialistas/${especialista.imagen}`} alt={`imagen de ${especialista.nombre}`} className="w-3/4 max-h-52 min-h-52 my-4 rounded" />
         <div className="text-center flex flex-col justify-center text-white mb-4">
             <h2 className="uppercase font-bold">{especialista.nombre}</h2>
             <h3>{especialista.titulo}</h3>
