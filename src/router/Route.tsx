@@ -7,12 +7,13 @@ import TerminosYCondiciones from "../views/Privacidad/TerminosYCondiciones";
 import Privacidad from "../views/Privacidad/Privacidad";
 import MainLayout from "../layouts/MainLayout";
 import Servicios from "../views/Servicios/Servicios";
-import Blog1 from "@/components/Blogs/Blog1";
-import Blog2 from "@/components/Blogs/Blog2";
+import BlogPost from "@/components/Blogs/BlogPost";
+import ScrollToTop from "@/helpers/ScrollToTop";
 
 export default function AppRouter() {
     return (
     <BrowserRouter>
+        <ScrollToTop/>
         <Routes>
             <Route element={<MainLayout/>}>
                 <Route path="/" element={<Home />} />
@@ -22,8 +23,7 @@ export default function AppRouter() {
                 <Route path="/servicios" element={<Servicios/>}/>
                 <Route path="/Terms" element={<TerminosYCondiciones/>}/>
                 <Route path="/Privacy" element={<Privacidad/>}/>
-                <Route path="/blog/entrada-1" element={<Blog1/>}/>
-                <Route path="/blog/entrada-2" element={<Blog2/>}/>
+                <Route path="/blog/:slug" element={<BlogPost/>}/>
             </Route>
         </Routes>
     </BrowserRouter>

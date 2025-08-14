@@ -7,7 +7,7 @@ export default function CursosDestacados() {
     
 
     return (
-        <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="w-full mx-auto py-8">
             <h2 className="text-2xl lg:text-4xl font-bold text-center mb-6 text-azulPrimario-800 uppercase">Servicios Educativos</h2>
             {/* contenedor padre */}
             <div className="grid grid-cols-1 lg:grid-cols-2">
